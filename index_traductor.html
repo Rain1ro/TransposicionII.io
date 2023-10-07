@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor de Trasposición</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Traductor de Trasposición</h1>
+        <textarea id="inputText" placeholder="Ingresa el texto aquí"></textarea>
+        <div class="options">
+            <label for="columnCount">Número de Columnas:</label>
+            <input type="number" id="columnCount" value="2" min="2">
+        </div>
+        <div class="buttons">
+            <button id="encodeButton">Codificar</button>
+            <button id="decodeButton">Decodificar</button>
+            <button id="resetButton">Restablecer</button>
+        </div>
+        <textarea id="outputText" placeholder="Resultado"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
